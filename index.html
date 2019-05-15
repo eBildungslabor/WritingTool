@@ -18,20 +18,24 @@
         </div>    
 
         <div id="options">
-            <p>
-                <div class="pseudo-button clickable" onclick="increaseFontSize()">🔺</div>
-                <span>Schrift-Größe: </span><span id="currentFontSize">0</span>
-                <div class="pseudo-button clickable" onclick="decreaseFontSize()">🔻</div>
-            </p>
+          
             <p><span><input type="checkbox" class="input-inline" id="checkboxTimer" onclick="toggleTimer()"></span>Ich möchte für write for <span><input type="tel" id="timerInput" class="input-inline" size="2" value="7"></span> Minuten schreiben.</p>
             <p><span><input type="checkbox" class="input-inline" id="checkboxWordlimit"></span>Ich möchte maximal <span><input type="tel" id="maxwordcountInput" class="input-inline" size="4" value="280"></span> Wörter schreiben.</p>
             <p><span><input type="checkbox" class="input-inline" id="checkboxBackspace"></span> Ich möchte verhindern, dass ich etwas löschen kann.</p>
             <p><span><input type="checkbox" class="input-inline" id="checkboxBlind" onclick="toggleBlur()"></span> Ich möchte während des Schreibens nicht sehen, was ich schreibe.</p>
             <p><span><input type="checkbox" class="input-inline" id="checkboxOverlay" onclick="toggleOverlay()"></span> Ich möchte Zeit und Wortanzahl angezeigt bekommen..</p>
+          
+              <p>
+                <div class="pseudo-button clickable" onclick="increaseFontSize()">🔺</div>
+                <span>Schrift-Größe: </span><span id="currentFontSize">0</span>
+                <div class="pseudo-button clickable" onclick="decreaseFontSize()">🔻</div>
+            </p>
+        <div id="textarea" contenteditable spellcheck="false">Aktuelle Schriftgröße</div>  
+            
             <button onclick="starteDieMaschine()">Schreiben!</button>
         </div>
 
-        <div id="textarea" contenteditable spellcheck="false">>>&nbsp;Wähle Deine gewünschten Einstellungen und klicke auf "Schreiben".</div>
+      
         
         <div id="overlay">
             <div id="timer" class="overlay-text">00</div>
@@ -40,7 +44,7 @@
         </div>
         
         <div id="overlay-blur-toggle" onclick="forceBlurToggle()">
-            <p>Auf Blid-Schreiben umstellen</p>
+            <p>Ansicht-Wechsler</p>
         </div>
       
     </body>
