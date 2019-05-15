@@ -1,6 +1,6 @@
-# Writing Tool
+# Was ist das hier?
 
-This is a weekend project of mine and was hacked together just for fun and learning purposes. 
+Schreibtool ist ein Wochenendprojekt von [Dave Leibhold](https://github.com/davehold/WritingTool) - hier in einer deutschen Übersetzung. Mit dem Schreibtool kann man sich eine Online-Umgebung zum kreativen Schreiben schaffen. Festgelegt werden kann die gewünschte Schreibzeit und die Länge des Textes. Außerdem gibt es Optionen zum Blidschreiben oder zum Sperren der Löschmöglichkeit von geschriebenen Text.  
 
-# License
-See the LICENSE file for license rights and limitations (MIT).
+# Lizenz
+Veröffentlicht unter MIT. Nähere Informationen unter Lizenz.
